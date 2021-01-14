@@ -1,0 +1,8 @@
+body {
+	background: linear-gradient(to right, #000000, #f0dc82);
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Potta one', sans-serif;
+	font-size: 30px;
+}

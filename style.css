@@ -1,0 +1,182 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'potta one', sans-serif;
+	background-color: #f4f4f4;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	color: #fff;background: linear-gradient(to right, #f0dc82, #000000);
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: 3px solid #f0dc82;
+}
+header #branding {
+	margin: 0px;
+}
+
+header #branding h1{
+	float: left;
+	padding: 0 10px 20px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px; 
+	padding-right: 10px;
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 20px 20px 20px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header #branding, header .active a{
+	color: #fff;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #f0dc82;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background-image: url("bisa yok.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: #000;
+}
+
+#showcase h1{
+	margin-top: 250px;
+	font-size: 70px;
+	margin-bottom: 55px;
+	text-shadow: 2px 2px 5px #f0dc82;
+	font: 'potta one',sans-serif;
+}
+
+#showcase p{
+	font-size: 20px;
+
+}
+
+#newsletter{
+	padding: 15px;
+	color: #fff;
+	background: linear-gradient(to right, #000000, #f0dc82);
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 70px;
+	width: 20px;
+}
+
+.buttonsubs{
+	height: 38px;
+	background-color: #000000;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff; 
+}
+
+
+footer{
+	padding: 5px;
+	margin-top: 5px;
+	color: #fff;
+	background: linear-gradient(to right, #f0dc82, #000000);
+	text-align: center;
+}
+
+
+/* Media Query */
+@media(max-width: 768px){
+	header #branding h1,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	header #branding h1 {
+		float: none;
+		text-align: center;
+		width: 100%; 
+	}
+
+
+	header nav{
+		float: none;
+		text-align: center;
+		padding-left: 50px;
+		padding-bottom: 20px;
+
+
+	}
+
+	#showcase h1 {
+		display: none;
+	}
+
+	#newsletter button{
+		display: block;
+		width: 100%
+	}
+
+	#newslatter input[type="email"]{
+		float: none;
+		width: 100%;
+		text-align: : center;
+		font-size: 5px;
+	}
+
+	#showcase{
+	min-height: 400px;
+	background-image: url("bisa yok.jpg");
+	background-size: cover;
+	background-attachment: local;
+	text-align: center;
+	color: #000;
+    }
+
